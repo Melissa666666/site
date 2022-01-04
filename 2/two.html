@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Forms</title>
+   <link rel="stylesheet" href="css2.css">
+</head>
+<body>
+   <form action="#" method="get">
+      <div>
+         <p>Name</p>
+         <input placeholder="namename" type="text" name="username" tabindex="1">
+      </div>
+      <div>
+         <p>Password</p>
+         <input type="text" name="password" tabindex="2">
+      </div>
+      <div>
+         <p>Phone number</p>
+         <input type="tel" name="telephone" tabindex="3">
+      </div>
+      <div>
+         <p>Gender</p>
+         <input tabindex="4" type="radio" name="gender" value="gen1"> Male <br>
+         <input tabindex="4"type="radio" checked name="gender" value="gen2"> Female
+      </div>
+      <div>
+         <p>Property</p>
+         <input checked type="checkbox" name="property1"> Bicycle <br>
+         <input type="checkbox" name="property2"> Car <br>
+         <input disabled type="checkbox" name="property3"> House 
+      </div>
+      <div>
+         <p>Additional information</p>
+         <textarea name="addition" id="" cols="20" rows="2"></textarea>
+      </div>
+      <div>
+         <p>Attach a photo</p>
+         <input type="file">
+      </div>
+      <div>
+         <p>Favorite color</p>
+         <select name="color">
+            <option value="1">red</option>
+            <option selected value="2">black</option>
+            <option value="3">white</option>
+         </select>
+      </div>
+      <div>
+         <p>Action</p>
+         <button type="submit">Send</button>
+         <button type="reset">Clear</button>
+      </div>
+   </form>
+</body>
+</html>
